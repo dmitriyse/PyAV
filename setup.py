@@ -480,7 +480,7 @@ class ReflectCommand(Command):
         canaries = {
             'pyav_function_should_not_exist': ('function', False),
             'PyAV__struct_should_not_exist': ('member', False),
-            'avformat_open_input': ('function', True),
+#            'avformat_open_input': ('function', True),
             'AVStream__index': ('member', True),
         }
 
